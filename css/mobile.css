@@ -1,0 +1,198 @@
+/** VERSAO TAMANHO MEDIO - TABLET **/
+@media screen and (max-width: 1100px) {
+
+	html {
+		font-size: 90%;
+	}
+
+	img{
+		width: 100%;
+	}
+
+
+
+	.left-side{
+		width: 100%;
+	}
+
+	.rigth-side{
+		display: none;
+	}
+
+	section {
+		width: 45%;
+		margin-right: 0.5em;
+		margin-left: 1em; 
+
+	}
+
+	section.play-now{
+		width: 100%;
+		margin: 0;
+	}
+
+	.your-numbers-picker {
+		width: 25em;
+	}
+
+	.info{
+		width: 100%;
+	}
+
+	.line{
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	.add-line-box img{
+		width:auto;
+	}
+	
+	.content-bottom{
+		display: block;
+		width: 100%;
+	}
+
+	.content-bottom img{
+		width:auto;
+	}
+
+	.small-row {
+		  padding: 0;
+		  text-align: center;
+		  width: 33.3%;
+		  float: left;
+		  margin-bottom: 1em;
+		  padding-bottom: 9em;
+	}
+
+@media screen and (max-width: 900px) {
+
+	html {
+		font-size: 78%;
+	}
+	.numbers-picker{
+		font-size: 1.1rem;
+	}
+
+	
+	.your-numbers-picker {
+		width: 28em;
+		min-height: 13.75em;
+	}
+
+	div.close{
+		width: 1.5em;
+		height: 1.5em;
+  		margin-bottom: 0px;
+  		margin-top: 1.0em;
+	}
+
+
+
+	.add-line {
+  		font-size: 1.2rem;
+  		margin-right: 2em;
+	}
+	.legend{
+  		font-size: 1.2rem;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+
+	html {
+		font-size: 70%;
+	}
+
+	section {
+		width: 100%;
+		margin: 1em 0 0 0;
+	}
+
+	section.number-picker , .middle {
+		display: none;
+	}
+
+	.picker{
+		margin-top: -0.5em;
+	}
+
+	.numbers-picked-title {
+	  	width: 100%;
+	  	text-align: center;
+	  	padding-top: 2em;
+	  	font-size: 2.5rem;
+	  	padding: 0;
+	  	margin: 0 auto;
+	  	line-height: 2em;
+	}
+
+	.your-numbers-picker {
+		width: 100%;
+		margin: 0 auto;
+		padding: 0 0 2em;
+		border-radius: 0px 0px 17px 17px;
+    	-moz-border-radius:  0px 0px 17px 17px;
+    	-webkit-border-radius:  0px 0px 17px 17px;
+	}
+
+	.ball-number {
+	    width: 1.9em;
+		height: 1.5em;
+		font-size: 2.2em;	
+	}
+
+
+	.line{
+		margin: 0 auto;
+  		width: 26em;
+  		min-width: 26em;
+  		float: none;
+
+	}
+
+
+	div.close{
+		width: 1.5em;
+		height: 1.5em;
+  		margin-bottom: 0px;
+  		margin-top: 1.5em;
+	}
+
+
+	.add-line {
+		font-size: 2rem;
+		margin-right: 4em;
+		margin-bottom: .5em;
+	}
+	.legend{
+		font-size: 2rem;
+	}
+
+	.small-row {
+		  width: 100%;
+		  margin-bottom: 0;
+	}
+	.balls {
+	  width: 19em;
+	}
+	.ball-number {
+	  font-size: 1.2em;
+	}
+
+	.bonus-ball{
+		background-position: -1px -3px;
+  		background-size: 1.9em;
+	}
+
+	button.quick-pick{
+		width: 1.9em;
+		height: 1.8em;
+	}
+	input.input-number{
+		width: 1.7em;
+  		height: 1.7em;
+	}
+}
