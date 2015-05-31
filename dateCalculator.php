@@ -30,7 +30,7 @@
 			
 			$currentTime = strtotime("now");
 
-			// check time , past 20 (8pm) , get next Saturday
+			// check time , past 20 (8pm) , get next Wednesday (Supplied Date)
 			if( date("w",$currentTime) > 3 ||
 				(date("w",$currentTime) == 3 && date("H",$currentTime)>=20) ){
 				
