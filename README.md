@@ -7,4 +7,5 @@ Full Size
 
 
 Mobile size
+
 ![alt mobile size](https://github.com/samuelteixeiras/PICK-PLAY/blob/master/images/pickPlay2.png)
